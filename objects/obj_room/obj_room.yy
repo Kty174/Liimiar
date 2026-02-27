@@ -32,5 +32,5 @@
     "path":"sprites/Sroom/Sroom.yy",
   },
   "spriteMaskId":null,
-  "visible":true,
+  "visible":false,
 }

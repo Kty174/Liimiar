@@ -1,5 +1,9 @@
 seguindo = false;
 
+ancorado = false;
+
+somanc = false;
+
 xc = 1;
 yc = 1;
 ang = 0;

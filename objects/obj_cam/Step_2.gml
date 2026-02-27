@@ -55,18 +55,17 @@ if (instance_exists(view_target)) {
 
 #region parallax q n sei se funciona
 
-/*
+
 
 	var layer_ceu   = layer_get_id("bg_ceu");
 	var layer_fundo = layer_get_id("bg_fundo");
 	var layer_meio  = layer_get_id("bg_meio");
-	var layer_f1    = layer_get_id("bg_frente_1");
-	var layer_f2    = layer_get_id("bg_frente_2");
+	var layer_f1    = layer_get_id("bg_frente");
 
 	var cam_x = camera_get_view_x(view_camera[0]);
 	var cam_y = camera_get_view_y(view_camera[0]);
 
-	layer_x(layer_ceu,   cam_x * 1);
+	layer_x(layer_ceu,   cam_x);
 	layer_y(layer_ceu,   cam_y);
 
 	layer_x(layer_fundo, cam_x * 0.8);
@@ -78,10 +77,10 @@ if (instance_exists(view_target)) {
 	layer_x(layer_f1,    cam_x * 0.01);
 	layer_y(layer_f1,    cam_y);
 
-	layer_x(layer_f2,    cam_x * 0.2);
-	layer_y(layer_f2,    cam_y);
+	
+	
 
-*/
+
 
 #endregion
 

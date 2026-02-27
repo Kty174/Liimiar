@@ -12,10 +12,7 @@
     "name":"fx",
     "path":"folders/1 - objetos/fx.yy",
   },
-  "parentObjectId":{
-    "name":"obj_colisoes",
-    "path":"objects/obj_colisoes/obj_colisoes.yy",
-  },
+  "parentObjectId":null,
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,

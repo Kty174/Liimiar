@@ -1,0 +1,1 @@
+draw_sprite_ext(Sspyke, 0, x, y, xsc, image_yscale * ysc, image_angle, c_white, alp);

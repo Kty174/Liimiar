@@ -51,8 +51,8 @@
   },
   "origin":4,
   "parent":{
-    "name":"vazio",
-    "path":"folders/sprites/player/vazio.yy",
+    "name":"mecanicas",
+    "path":"folders/sprites/mecanicas.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

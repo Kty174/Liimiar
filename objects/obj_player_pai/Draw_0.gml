@@ -5,5 +5,6 @@ draw_sprite_ext(sprite_index, image_index,
 				
 				
 				
-//draw_text(x, y - 16, estado)				
+//draw_text(x, y - 16, vspd)				
+//draw_text(x, y - 32, estado)				
 				

@@ -1,0 +1,1 @@
+draw_sprite_ext(Sspyke_virtua, 0, x, y, xsc, ysc, ang, c_white, alp);

@@ -25,8 +25,8 @@
   "nineSlice":null,
   "origin":6,
   "parent":{
-    "name":"player",
-    "path":"folders/sprites/player.yy",
+    "name":"colisoes",
+    "path":"folders/sprites/colisoes.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

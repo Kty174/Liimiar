@@ -10,8 +10,8 @@
   "name":"obj_flux",
   "overriddenProperties":[],
   "parent":{
-    "name":"fluxpoint",
-    "path":"folders/1 - objetos/colisoes/fluxpoint.yy",
+    "name":"mecanicas_jogo",
+    "path":"folders/1 - objetos/mecanicas_jogo.yy",
   },
   "parentObjectId":null,
   "persistent":false,

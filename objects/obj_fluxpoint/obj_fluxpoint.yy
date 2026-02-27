@@ -10,8 +10,8 @@
   "name":"obj_fluxpoint",
   "overriddenProperties":[],
   "parent":{
-    "name":"fluxpoint",
-    "path":"folders/1 - objetos/colisoes/fluxpoint.yy",
+    "name":"mecanicas_jogo",
+    "path":"folders/1 - objetos/mecanicas_jogo.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -28,7 +28,7 @@
   "physicsShapePoints":[],
   "physicsStartAwake":true,
   "properties":[
-    {"$GMObjectProperty":"v2","%Name":"energia","filters":[],"listItems":[],"multiselect":false,"name":"energia","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"False","varType":3,},
+    {"$GMObjectProperty":"v2","%Name":"identificacao","filters":[],"listItems":[],"multiselect":false,"name":"identificacao","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0","varType":0,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",

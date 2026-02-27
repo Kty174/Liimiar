@@ -1,7 +1,7 @@
 resolution_width = 1280;
 resolution_height = 720;
 resolution_scale = 2;
-view_target = obj_player_limbo;
+view_target = obj_player;
 global.view_width = resolution_width / resolution_scale;
 global.view_height = resolution_height / resolution_scale;
 window_set_size(global.view_width * resolution_scale, global.view_height * resolution_scale)

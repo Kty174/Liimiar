@@ -28,4 +28,5 @@ if(place_meeting(x, y+sign(vspd), obj_colisoes)){
 	y+=sign(vspd);	
 }
 }
-	
+
+

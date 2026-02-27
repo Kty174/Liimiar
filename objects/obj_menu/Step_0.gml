@@ -86,12 +86,18 @@ if(!instance_exists(obj_transicao)){
 				break;
 							
 				case 2:
+
+						global.fullscreen = !global.fullscreen;
+				
+				break;
+				
+				case 3:
 							
 					global.idindc = (global.idindc + 1) mod array_length(global.idioma);	
 				
 				break;
 				
-				case 4:
+				case 5:
 							
 					game_end();
 				
@@ -105,7 +111,7 @@ if(!instance_exists(obj_transicao)){
 
 	#region mudar som
 
-	if(indice == 3){
+	if(indice == 4){
 		if(global.tecla_menu_cima){
 			if(global.volume_geral<1)global.volume_geral+=.05;	
 		}
@@ -137,9 +143,9 @@ if(!instance_exists(obj_transicao)){
 	var _idioma = global.idioma[global.idindc]
 
 	if(_idioma == "ptbr"){
-		menu = ["Novo jogo", "Escolher nivel", "Idioma", "Sons", "Sair"];
+		menu = ["Novo jogo", "Escolher nivel", "Alternar Tela cheia", "Idioma", "Sons", "Sair"];
 	}else{
-		menu = ["New game", "Choose level", "Language", "Sounds", "Exit"];
+		menu = ["New game", "Choose level","Toggle fullscreen", "Language", "Sounds", "Exit"];
 	}
 
 #endregion

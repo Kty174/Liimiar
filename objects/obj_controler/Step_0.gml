@@ -1,10 +1,10 @@
-global.tecla_cima =						keyboard_check(vk_up);
-global.tecla_baixo =					keyboard_check(vk_down);
-global.tecla_esq =						keyboard_check(vk_left);
-global.tecla_dir =						keyboard_check(vk_right);
-global.tecla_pular =					keyboard_check_pressed(ord("C"));
-global.tecla_pular_cancel =				keyboard_check(ord("C"));
-global.tecla_alternar_personagem =		keyboard_check_pressed(ord("X"));
+global.tecla_cima =						keyboard_check(vk_up)	 || keyboard_check(ord("W"))
+global.tecla_baixo =					keyboard_check(vk_down)	 || keyboard_check(ord("S"))
+global.tecla_esq =						keyboard_check(vk_left)	 || keyboard_check(ord("A"))
+global.tecla_dir =						keyboard_check(vk_right) || keyboard_check(ord("D"))
+global.tecla_pular =					keyboard_check_pressed(ord("C")) || keyboard_check_pressed(vk_space);
+global.tecla_pular_cancel =				keyboard_check(ord("C")) || keyboard_check(vk_space);
+global.tecla_alternar_personagem =		keyboard_check_pressed(ord("X")) || keyboard_check_pressed(vk_shift);
 global.tecla_interagir =				keyboard_check_pressed(vk_control);
 
 global.tecla_restart =						keyboard_check(ord("R"));
@@ -13,10 +13,10 @@ global.op_menu = keyboard_check_pressed(vk_escape);
 
 global.botao_atk =						mouse_check_button_pressed(mb_left)
 
-global.tecla_menu_cima =					keyboard_check_pressed(vk_up);
-global.tecla_menu_baixo =					keyboard_check_pressed(vk_down);
-global.tecla_menu_esq =						keyboard_check_pressed(vk_left);
-global.tecla_menu_dir =						keyboard_check_pressed(vk_right);
+global.tecla_menu_cima =					keyboard_check_pressed(vk_up)		|| keyboard_check_pressed(ord("W"));
+global.tecla_menu_baixo =					keyboard_check_pressed(vk_down)		|| keyboard_check_pressed(ord("S"));
+global.tecla_menu_esq =						keyboard_check_pressed(vk_left)		|| keyboard_check_pressed(ord("A"));
+global.tecla_menu_dir =						keyboard_check_pressed(vk_right)	|| keyboard_check_pressed(ord("D"));
 global.tecla_menu_con =						keyboard_check_pressed(vk_enter);
 
 #region reiniciar fase
@@ -183,31 +183,6 @@ if (global.tecla_alternar_personagem && !instance_exists(obj_dialogos)
 	}
 }
 
-
-#endregion
-
-#region nomes das áreas
-
-switch(room){
-    
-	case rm_tutorial:
-		if(global.idioma[global.idindc] == "ptbr"){
-			titulo = "Nível 1-1";
-			subtitulo = "Primeiros passos";
-		} else {
-			titulo = "Level 1-1";
-			subtitulo = "First Steps";
-		}
-	break;
-    	
-	default:
-	
-			titulo = "";
-			subtitulo = "";	
-	
-	break
-	
-}
 
 #endregion
 

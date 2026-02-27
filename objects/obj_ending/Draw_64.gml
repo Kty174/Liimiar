@@ -26,9 +26,9 @@ if(estado == 0 || estado == 1){
 if(estado == 2){
 
     // imagem de fundo suave
-    draw_set_alpha(0.2);
-    draw_sprite(imagens[indice_img], 0, mgx, mgy);
-    draw_set_alpha(1);
+	draw_sprite_ext(imagens[indice_img], 0, mgx + 350 * img_lado, mgy,
+					1.5, 1.5, 0, c_white, img_alpha); // exemplo lado direito
+	draw_set_alpha(1);
 
     draw_set_valign(fa_top);
 

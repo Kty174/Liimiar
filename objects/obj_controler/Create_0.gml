@@ -15,6 +15,7 @@ global.tecla_menu_esq =						keyboard_check_pressed(ord("A"));
 global.tecla_menu_dir =						keyboard_check_pressed(ord("D"));
 global.tecla_menu_con =						keyboard_check_pressed(vk_enter);
 
+global.fullscreen = false;
 
 global.inv = false;
 

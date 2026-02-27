@@ -36,11 +36,11 @@ if(indice==1){
 	}
 }
 
-if(indice==2){
+if(indice==3){
 	draw_sprite(Shud_idiomas, global.idindc,cx, cy + 64)	
 }
 
-if(indice == 3){
+if(indice == 4){
 	draw_text(cx, cy + 64, string("<") 
 						 + string(ceil(global.volume_geral * 100))
 						 + string(">"))	

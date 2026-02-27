@@ -8,22 +8,22 @@ if (player_em_cima) {
 	    switch(etapaTutorial){
 
 			case 0:
-				texto_total = "Pressione\n[Seta Esquerda] ou [Seta Direita]\npara se mover\n" +
-				                "e [C] para pular";
+				texto_total = "Pressione\n[Setas]\ ou [A]e[D]\npara mover\n" +
+				                "e [C] ou [Espaço]\npara pular";
 			break;
 
 			case 1:
 				texto_total = "Pule contra uma parede para segurar,\n" +
-				                "enquanto segura, pressione [C] para pular";
+				                "enquanto segura\npressione\n[C] ou [Espaço]\npara pular";
 			break;
 			
 			case 1.5:
 				texto_total = "Quando estiver segurando uma parede,\n" +
-				                "pressione [Seta Para Baixo] para se soltar";
+				                "pressione\n[Seta Baixo] ou [S]\npara se soltar";
 			break;
 
 			case 2:
-				texto_total = "Pressione [X] para acessar o mundo W.E.B";
+				texto_total = "Pressione\n[X] ou[shift]\npara acessar o mundo W.E.B";
 			break;
 
 	        case 3:

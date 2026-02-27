@@ -93,7 +93,13 @@ lista_creditos = [
     "Obrigada por jogar <3"
 ];
 
-// ===== IMAGENS =====
-imagens = [spr_arte_ending_1, Snpc_ryan_retrato, Scolisao]; 
+// ===== IMAGENS =====s
+imagens = [spr_arte_ending_1, spr_arte_ending_2, spr_arte_ending_3, spr_arte_ending_4]; 
 indice_img = 0;
+
 img_timer = 0;
+img_alpha = 0;        // começa invisível
+img_fading = false;
+img_fade_dir = 1;     // começa aparecendo
+vel_fade_img = 0.02;  // velocidade do fade
+img_lado = 1;

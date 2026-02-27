@@ -16,4 +16,6 @@ if(room==rm_menu || room==rm_opening || room==rm_ending){
 }
 
 
+window_set_fullscreen(global.fullscreen);
+
 

@@ -29,7 +29,7 @@ switch (room)
         break;
 		
     case rm_ending:
-        scr_play_music(snd_map_5_msc);
+        scr_play_music(snd_map_ending_msc);
         break;
 		        
     default:

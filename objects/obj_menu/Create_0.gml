@@ -1,5 +1,5 @@
 //iniciando menu
-menu = ["Novo jogo", "Escolher nivel", "Idioma", "Sons", "Sair"];
+menu = ["Novo jogo", "Escolher nivel", "Tela cheia", "Idioma", "Sons", "Sair"];
 
 lvlnum = 0;
 lvlmax = 4

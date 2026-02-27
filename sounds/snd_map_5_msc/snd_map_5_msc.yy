@@ -10,7 +10,7 @@
   "compression":0,
   "compressionQuality":4,
   "conversionMode":0,
-  "duration":67.500404,
+  "duration":55.034103,
   "exportDir":"",
   "name":"snd_map_5_msc",
   "parent":{
@@ -21,6 +21,6 @@
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
   "sampleRate":44100,
-  "soundFile":"snd_map_5_msc.wav",
-  "volume":0.2,
+  "soundFile":"snd_map_5_msc.mp3",
+  "volume":0.3,
 }
